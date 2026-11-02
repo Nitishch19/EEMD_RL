@@ -1,0 +1,1428 @@
+{
+  "building_id": "NCU_MAIN",
+  "metadata_status": "rough_initial_model",
+  "total_spaces": 157,
+  "rooms": {
+    "RN001": {
+      "room_id": "RN001",
+      "floor": 0,
+      "room_type": "laboratory",
+      "capacity": 40,
+      "subtype": null,
+      "timetable": true,
+      "assumed": true
+    },
+    "RN002": {
+      "room_id": "RN002",
+      "floor": 0,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN003": {
+      "room_id": "RN003",
+      "floor": 0,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN004": {
+      "room_id": "RN004",
+      "floor": 0,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN005": {
+      "room_id": "RN005",
+      "floor": 0,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN006": {
+      "room_id": "RN006",
+      "floor": 0,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN007": {
+      "room_id": "RN007",
+      "floor": 0,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN008": {
+      "room_id": "RN008",
+      "floor": 0,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN009": {
+      "room_id": "RN009",
+      "floor": 0,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN010": {
+      "room_id": "RN010",
+      "floor": 0,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN011": {
+      "room_id": "RN011",
+      "floor": 0,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN012": {
+      "room_id": "RN012",
+      "floor": 0,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN013": {
+      "room_id": "RN013",
+      "floor": 0,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN014": {
+      "room_id": "RN014",
+      "floor": 0,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN015": {
+      "room_id": "RN015",
+      "floor": 0,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN016": {
+      "room_id": "RN016",
+      "floor": 0,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN017": {
+      "room_id": "RN017",
+      "floor": 0,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN018": {
+      "room_id": "RN018",
+      "floor": 0,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN019": {
+      "room_id": "RN019",
+      "floor": 0,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN020": {
+      "room_id": "RN020",
+      "floor": 0,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN021": {
+      "room_id": "RN021",
+      "floor": 0,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN022": {
+      "room_id": "RN022",
+      "floor": 0,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN023": {
+      "room_id": "RN023",
+      "floor": 0,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN024": {
+      "room_id": "RN024",
+      "floor": 0,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN025": {
+      "room_id": "RN025",
+      "floor": 0,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN026": {
+      "room_id": "RN026",
+      "floor": 0,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN027": {
+      "room_id": "RN027",
+      "floor": 0,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN028": {
+      "room_id": "RN028",
+      "floor": 0,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN029": {
+      "room_id": "RN029",
+      "floor": 0,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN030": {
+      "room_id": "RN030",
+      "floor": 0,
+      "room_type": "faculty_admin",
+      "capacity": 5,
+      "subtype": "teacher_room",
+      "timetable": true,
+      "assumed": true
+    },
+    "RN031": {
+      "room_id": "RN031",
+      "floor": 0,
+      "room_type": "faculty_admin",
+      "capacity": 5,
+      "subtype": "teacher_room",
+      "timetable": true,
+      "assumed": true
+    },
+    "RN032": {
+      "room_id": "RN032",
+      "floor": 0,
+      "room_type": "faculty_admin",
+      "capacity": 5,
+      "subtype": "teacher_room",
+      "timetable": true,
+      "assumed": true
+    },
+    "RN033": {
+      "room_id": "RN033",
+      "floor": 0,
+      "room_type": "faculty_admin",
+      "capacity": 5,
+      "subtype": "teacher_room",
+      "timetable": true,
+      "assumed": true
+    },
+    "RN034": {
+      "room_id": "RN034",
+      "floor": 0,
+      "room_type": "faculty_admin",
+      "capacity": 5,
+      "subtype": "teacher_room",
+      "timetable": true,
+      "assumed": true
+    },
+    "RN035": {
+      "room_id": "RN035",
+      "floor": 0,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN036": {
+      "room_id": "RN036",
+      "floor": 0,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN037": {
+      "room_id": "RN037",
+      "floor": 0,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN038": {
+      "room_id": "RN038",
+      "floor": 0,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN039": {
+      "room_id": "RN039",
+      "floor": 0,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "ADMIN-01": {
+      "room_id": "ADMIN-01",
+      "floor": 0,
+      "room_type": "faculty_admin",
+      "capacity": 10,
+      "subtype": "college_admin",
+      "timetable": false,
+      "assumed": false
+    },
+    "ADMIN-02": {
+      "room_id": "ADMIN-02",
+      "floor": 0,
+      "room_type": "faculty_admin",
+      "capacity": 10,
+      "subtype": "college_admin",
+      "timetable": false,
+      "assumed": false
+    },
+    "ADMIN-03": {
+      "room_id": "ADMIN-03",
+      "floor": 0,
+      "room_type": "faculty_admin",
+      "capacity": 10,
+      "subtype": "college_admin",
+      "timetable": false,
+      "assumed": false
+    },
+    "ADMIN-04": {
+      "room_id": "ADMIN-04",
+      "floor": 0,
+      "room_type": "faculty_admin",
+      "capacity": 10,
+      "subtype": "college_admin",
+      "timetable": false,
+      "assumed": false
+    },
+    "ADMIN-05": {
+      "room_id": "ADMIN-05",
+      "floor": 0,
+      "room_type": "faculty_admin",
+      "capacity": 10,
+      "subtype": "college_admin",
+      "timetable": false,
+      "assumed": false
+    },
+    "ADMIN-06": {
+      "room_id": "ADMIN-06",
+      "floor": 0,
+      "room_type": "faculty_admin",
+      "capacity": 10,
+      "subtype": "college_admin",
+      "timetable": false,
+      "assumed": false
+    },
+    "ADMIN-07": {
+      "room_id": "ADMIN-07",
+      "floor": 0,
+      "room_type": "faculty_admin",
+      "capacity": 10,
+      "subtype": "college_admin",
+      "timetable": false,
+      "assumed": false
+    },
+    "ADMIN-08": {
+      "room_id": "ADMIN-08",
+      "floor": 0,
+      "room_type": "faculty_admin",
+      "capacity": 10,
+      "subtype": "college_admin",
+      "timetable": false,
+      "assumed": false
+    },
+    "ADMIN-09": {
+      "room_id": "ADMIN-09",
+      "floor": 0,
+      "room_type": "faculty_admin",
+      "capacity": 10,
+      "subtype": "college_admin",
+      "timetable": false,
+      "assumed": false
+    },
+    "ADMIN-10": {
+      "room_id": "ADMIN-10",
+      "floor": 0,
+      "room_type": "faculty_admin",
+      "capacity": 10,
+      "subtype": "college_admin",
+      "timetable": false,
+      "assumed": false
+    },
+    "BANK": {
+      "room_id": "BANK",
+      "floor": 0,
+      "room_type": "commercial",
+      "capacity": 20,
+      "subtype": "bank",
+      "timetable": false,
+      "assumed": false
+    },
+    "IRO": {
+      "room_id": "IRO",
+      "floor": 0,
+      "room_type": "faculty_admin",
+      "capacity": 15,
+      "subtype": "international_relations_office",
+      "timetable": false,
+      "assumed": false
+    },
+    "SECURITY-01": {
+      "room_id": "SECURITY-01",
+      "floor": 0,
+      "room_type": "security",
+      "capacity": 5,
+      "subtype": "security_room",
+      "timetable": false,
+      "assumed": false
+    },
+    "SECURITY-02": {
+      "room_id": "SECURITY-02",
+      "floor": 0,
+      "room_type": "security",
+      "capacity": 5,
+      "subtype": "security_room",
+      "timetable": false,
+      "assumed": false
+    },
+    "RN101": {
+      "room_id": "RN101",
+      "floor": 1,
+      "room_type": "seminar_room",
+      "capacity": 60,
+      "subtype": "smart_classroom",
+      "timetable": false,
+      "assumed": false
+    },
+    "RN102": {
+      "room_id": "RN102",
+      "floor": 1,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN103": {
+      "room_id": "RN103",
+      "floor": 1,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN104": {
+      "room_id": "RN104",
+      "floor": 1,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN105": {
+      "room_id": "RN105",
+      "floor": 1,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN106": {
+      "room_id": "RN106",
+      "floor": 1,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN107": {
+      "room_id": "RN107",
+      "floor": 1,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN108": {
+      "room_id": "RN108",
+      "floor": 1,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN109": {
+      "room_id": "RN109",
+      "floor": 1,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN110": {
+      "room_id": "RN110",
+      "floor": 1,
+      "room_type": "faculty_admin",
+      "capacity": 5,
+      "subtype": "teacher_room",
+      "timetable": true,
+      "assumed": true
+    },
+    "RN111": {
+      "room_id": "RN111",
+      "floor": 1,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN112": {
+      "room_id": "RN112",
+      "floor": 1,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN113": {
+      "room_id": "RN113",
+      "floor": 1,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN114": {
+      "room_id": "RN114",
+      "floor": 1,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN115": {
+      "room_id": "RN115",
+      "floor": 1,
+      "room_type": "faculty_admin",
+      "capacity": 5,
+      "subtype": "teacher_room",
+      "timetable": true,
+      "assumed": true
+    },
+    "RN116": {
+      "room_id": "RN116",
+      "floor": 1,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN117": {
+      "room_id": "RN117",
+      "floor": 1,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN118": {
+      "room_id": "RN118",
+      "floor": 1,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN119": {
+      "room_id": "RN119",
+      "floor": 1,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN120": {
+      "room_id": "RN120",
+      "floor": 1,
+      "room_type": "faculty_admin",
+      "capacity": 5,
+      "subtype": "teacher_room",
+      "timetable": true,
+      "assumed": true
+    },
+    "RN121": {
+      "room_id": "RN121",
+      "floor": 1,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN122": {
+      "room_id": "RN122",
+      "floor": 1,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN123": {
+      "room_id": "RN123",
+      "floor": 1,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN124": {
+      "room_id": "RN124",
+      "floor": 1,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN125": {
+      "room_id": "RN125",
+      "floor": 1,
+      "room_type": "faculty_admin",
+      "capacity": 5,
+      "subtype": "teacher_room",
+      "timetable": true,
+      "assumed": true
+    },
+    "RN126": {
+      "room_id": "RN126",
+      "floor": 1,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN127": {
+      "room_id": "RN127",
+      "floor": 1,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN128": {
+      "room_id": "RN128",
+      "floor": 1,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN129": {
+      "room_id": "RN129",
+      "floor": 1,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN130": {
+      "room_id": "RN130",
+      "floor": 1,
+      "room_type": "faculty_admin",
+      "capacity": 5,
+      "subtype": "teacher_room",
+      "timetable": true,
+      "assumed": true
+    },
+    "RN131": {
+      "room_id": "RN131",
+      "floor": 1,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN132": {
+      "room_id": "RN132",
+      "floor": 1,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN133": {
+      "room_id": "RN133",
+      "floor": 1,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN134": {
+      "room_id": "RN134",
+      "floor": 1,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN135": {
+      "room_id": "RN135",
+      "floor": 1,
+      "room_type": "laboratory",
+      "capacity": 40,
+      "subtype": null,
+      "timetable": true,
+      "assumed": true
+    },
+    "RN136": {
+      "room_id": "RN136",
+      "floor": 1,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN137": {
+      "room_id": "RN137",
+      "floor": 1,
+      "room_type": "laboratory",
+      "capacity": 40,
+      "subtype": null,
+      "timetable": true,
+      "assumed": true
+    },
+    "RN138": {
+      "room_id": "RN138",
+      "floor": 1,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN139": {
+      "room_id": "RN139",
+      "floor": 1,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN140": {
+      "room_id": "RN140",
+      "floor": 1,
+      "room_type": "laboratory",
+      "capacity": 40,
+      "subtype": null,
+      "timetable": true,
+      "assumed": true
+    },
+    "RN141": {
+      "room_id": "RN141",
+      "floor": 1,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN142": {
+      "room_id": "RN142",
+      "floor": 1,
+      "room_type": "laboratory",
+      "capacity": 40,
+      "subtype": null,
+      "timetable": true,
+      "assumed": true
+    },
+    "RN201": {
+      "room_id": "RN201",
+      "floor": 2,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN202": {
+      "room_id": "RN202",
+      "floor": 2,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN203": {
+      "room_id": "RN203",
+      "floor": 2,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN204": {
+      "room_id": "RN204",
+      "floor": 2,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN205": {
+      "room_id": "RN205",
+      "floor": 2,
+      "room_type": "faculty_admin",
+      "capacity": 5,
+      "subtype": "teacher_room",
+      "timetable": true,
+      "assumed": true
+    },
+    "RN206": {
+      "room_id": "RN206",
+      "floor": 2,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN207": {
+      "room_id": "RN207",
+      "floor": 2,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN208": {
+      "room_id": "RN208",
+      "floor": 2,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN209": {
+      "room_id": "RN209",
+      "floor": 2,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN210": {
+      "room_id": "RN210",
+      "floor": 2,
+      "room_type": "faculty_admin",
+      "capacity": 5,
+      "subtype": "teacher_room",
+      "timetable": true,
+      "assumed": true
+    },
+    "RN211": {
+      "room_id": "RN211",
+      "floor": 2,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN212": {
+      "room_id": "RN212",
+      "floor": 2,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN213": {
+      "room_id": "RN213",
+      "floor": 2,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN214": {
+      "room_id": "RN214",
+      "floor": 2,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN215": {
+      "room_id": "RN215",
+      "floor": 2,
+      "room_type": "faculty_admin",
+      "capacity": 5,
+      "subtype": "teacher_room",
+      "timetable": true,
+      "assumed": true
+    },
+    "RN216": {
+      "room_id": "RN216",
+      "floor": 2,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN217": {
+      "room_id": "RN217",
+      "floor": 2,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN218": {
+      "room_id": "RN218",
+      "floor": 2,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN219": {
+      "room_id": "RN219",
+      "floor": 2,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN220": {
+      "room_id": "RN220",
+      "floor": 2,
+      "room_type": "faculty_admin",
+      "capacity": 5,
+      "subtype": "teacher_room",
+      "timetable": true,
+      "assumed": true
+    },
+    "RN221": {
+      "room_id": "RN221",
+      "floor": 2,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN222": {
+      "room_id": "RN222",
+      "floor": 2,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN223": {
+      "room_id": "RN223",
+      "floor": 2,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN224": {
+      "room_id": "RN224",
+      "floor": 2,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN225": {
+      "room_id": "RN225",
+      "floor": 2,
+      "room_type": "laboratory",
+      "capacity": 40,
+      "subtype": null,
+      "timetable": true,
+      "assumed": true
+    },
+    "RN226": {
+      "room_id": "RN226",
+      "floor": 2,
+      "room_type": "laboratory",
+      "capacity": 40,
+      "subtype": null,
+      "timetable": true,
+      "assumed": true
+    },
+    "RN227": {
+      "room_id": "RN227",
+      "floor": 2,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN228": {
+      "room_id": "RN228",
+      "floor": 2,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN229": {
+      "room_id": "RN229",
+      "floor": 2,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN230": {
+      "room_id": "RN230",
+      "floor": 2,
+      "room_type": "faculty_admin",
+      "capacity": 5,
+      "subtype": "teacher_room",
+      "timetable": true,
+      "assumed": true
+    },
+    "RN231": {
+      "room_id": "RN231",
+      "floor": 2,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN232": {
+      "room_id": "RN232",
+      "floor": 2,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN233": {
+      "room_id": "RN233",
+      "floor": 2,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN234": {
+      "room_id": "RN234",
+      "floor": 2,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN235": {
+      "room_id": "RN235",
+      "floor": 2,
+      "room_type": "laboratory",
+      "capacity": 40,
+      "subtype": null,
+      "timetable": true,
+      "assumed": true
+    },
+    "RN236": {
+      "room_id": "RN236",
+      "floor": 2,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN237": {
+      "room_id": "RN237",
+      "floor": 2,
+      "room_type": "laboratory",
+      "capacity": 40,
+      "subtype": null,
+      "timetable": true,
+      "assumed": true
+    },
+    "RN301": {
+      "room_id": "RN301",
+      "floor": 3,
+      "room_type": "laboratory",
+      "capacity": 40,
+      "subtype": "computer_or_teaching_lab",
+      "timetable": true,
+      "assumed": false
+    },
+    "RN302": {
+      "room_id": "RN302",
+      "floor": 3,
+      "room_type": "laboratory",
+      "capacity": 40,
+      "subtype": "computer_or_teaching_lab",
+      "timetable": true,
+      "assumed": false
+    },
+    "RN303": {
+      "room_id": "RN303",
+      "floor": 3,
+      "room_type": "laboratory",
+      "capacity": 40,
+      "subtype": "computer_or_teaching_lab",
+      "timetable": true,
+      "assumed": false
+    },
+    "RN304": {
+      "room_id": "RN304",
+      "floor": 3,
+      "room_type": "laboratory",
+      "capacity": 40,
+      "subtype": "computer_or_teaching_lab",
+      "timetable": true,
+      "assumed": false
+    },
+    "RN305": {
+      "room_id": "RN305",
+      "floor": 3,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN306": {
+      "room_id": "RN306",
+      "floor": 3,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN307": {
+      "room_id": "RN307",
+      "floor": 3,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN308": {
+      "room_id": "RN308",
+      "floor": 3,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN309": {
+      "room_id": "RN309",
+      "floor": 3,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN310": {
+      "room_id": "RN310",
+      "floor": 3,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN311": {
+      "room_id": "RN311",
+      "floor": 3,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN312": {
+      "room_id": "RN312",
+      "floor": 3,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN313": {
+      "room_id": "RN313",
+      "floor": 3,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN314": {
+      "room_id": "RN314",
+      "floor": 3,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN315": {
+      "room_id": "RN315",
+      "floor": 3,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN316": {
+      "room_id": "RN316",
+      "floor": 3,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN317": {
+      "room_id": "RN317",
+      "floor": 3,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN318": {
+      "room_id": "RN318",
+      "floor": 3,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN319": {
+      "room_id": "RN319",
+      "floor": 3,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN320": {
+      "room_id": "RN320",
+      "floor": 3,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "RN321": {
+      "room_id": "RN321",
+      "floor": 3,
+      "room_type": "faculty_admin",
+      "capacity": 5,
+      "subtype": "teacher_room",
+      "timetable": true,
+      "assumed": true
+    },
+    "RN322": {
+      "room_id": "RN322",
+      "floor": 3,
+      "room_type": "faculty_admin",
+      "capacity": 5,
+      "subtype": "teacher_room",
+      "timetable": true,
+      "assumed": true
+    },
+    "RN323": {
+      "room_id": "RN323",
+      "floor": 3,
+      "room_type": "faculty_admin",
+      "capacity": 5,
+      "subtype": "teacher_room",
+      "timetable": true,
+      "assumed": true
+    },
+    "RN324": {
+      "room_id": "RN324",
+      "floor": 3,
+      "room_type": "classroom",
+      "capacity": 45,
+      "subtype": null,
+      "timetable": true,
+      "assumed": false
+    },
+    "LIBRARY": {
+      "room_id": "LIBRARY",
+      "floor": 3,
+      "room_type": "library",
+      "capacity": 150,
+      "subtype": "library_with_printing_room",
+      "timetable": false,
+      "assumed": false,
+      "equipment": {
+        "computers": 15,
+        "tube_lights": 50,
+        "fans": 12,
+        "central_ac_units": 1,
+        "large_printer_photocopier_units": 2
+      },
+      "equipment_note": "User-provided physical equipment counts; power ratings are modeled in eemd_rl_system.py and should be replaced by nameplate ratings when available."
+    }
+  }
+}

@@ -1,0 +1,571 @@
+{
+  "schema": "eemd-rl-v23-research-rule-baselines-v1",
+  "research_question": "Does safety-on timetable-informed PPO outperform a deterministic timetable-aware rule-based controller?",
+  "definitions": {
+    "B0": "Fixed weekday 07:30-17:00 thermostat schedule; no measured or timetable occupancy input.",
+    "B1": "Current-occupancy thermostat with fixed staged +30/+60/+120 minute timetable preconditioning.",
+    "comfort": "occupied controlled-zone steps; 20-27 C; target 24 C"
+  },
+  "weeks": [
+    "2025-01-13",
+    "2025-04-14",
+    "2025-07-14",
+    "2025-10-13"
+  ],
+  "run_count": 8,
+  "runs": [
+    {
+      "controller_id": "B0",
+      "controller_name": "B0_FIXED_SCHEDULE_THERMOSTAT_V23",
+      "week": "2025-01-13",
+      "deterministic": true,
+      "environment_safety_enabled": false,
+      "steps": 672,
+      "total_energy_kwh": 18064.64990000001,
+      "peak_demand_kw": 513.1895,
+      "comfort_violation_fraction": 0.04906542056074766,
+      "mean_abs_temp_deviation_c": 1.1567078271028037,
+      "occupied_zone_steps": 856,
+      "temperature_observations": 856,
+      "mean_hvac_utilization": 0.12505059523809578,
+      "active_conditioning_zone_steps": 1233,
+      "mean_ramp_kw": 24.838261997019423,
+      "total_reward": -45.81302856282824,
+      "reason_counts": {
+        "schedule_active:occupied_above_target": 8,
+        "schedule_active:occupied_below_target": 244,
+        "schedule_active:occupied_cold_19_or_below": 99,
+        "schedule_active:occupied_cold_20": 33,
+        "schedule_active:occupied_cold_21": 45,
+        "schedule_active:thermostat_deadband": 521,
+        "schedule_inactive:thermostat_deadband": 59,
+        "schedule_inactive:unoccupied_cooling_off": 5,
+        "schedule_inactive:unoccupied_extreme_cold": 804,
+        "schedule_inactive:unoccupied_heating_off": 1542
+      }
+    },
+    {
+      "controller_id": "B0",
+      "controller_name": "B0_FIXED_SCHEDULE_THERMOSTAT_V23",
+      "week": "2025-04-14",
+      "deterministic": true,
+      "environment_safety_enabled": false,
+      "steps": 672,
+      "total_energy_kwh": 22867.46090000005,
+      "peak_demand_kw": 480.107,
+      "comfort_violation_fraction": 0.009345794392523364,
+      "mean_abs_temp_deviation_c": 2.007928154205609,
+      "occupied_zone_steps": 856,
+      "temperature_observations": 856,
+      "mean_hvac_utilization": 0.19818154761904772,
+      "active_conditioning_zone_steps": 1732,
+      "mean_ramp_kw": 41.38606184798808,
+      "total_reward": -53.95387630115352,
+      "reason_counts": {
+        "schedule_active:occupied_above_target": 422,
+        "schedule_active:occupied_hot_26": 476,
+        "schedule_active:occupied_hot_27": 24,
+        "schedule_active:occupied_hot_28_plus": 26,
+        "schedule_active:thermostat_deadband": 2,
+        "schedule_inactive:thermostat_deadband": 2,
+        "schedule_inactive:unoccupied_cooling_off": 1624,
+        "schedule_inactive:unoccupied_hot_protection": 784
+      }
+    },
+    {
+      "controller_id": "B0",
+      "controller_name": "B0_FIXED_SCHEDULE_THERMOSTAT_V23",
+      "week": "2025-07-14",
+      "deterministic": true,
+      "environment_safety_enabled": false,
+      "steps": 672,
+      "total_energy_kwh": 15725.858699999984,
+      "peak_demand_kw": 403.9336,
+      "comfort_violation_fraction": 0.0,
+      "mean_abs_temp_deviation_c": 1.134139252336447,
+      "occupied_zone_steps": 856,
+      "temperature_observations": 856,
+      "mean_hvac_utilization": 0.08690178571428632,
+      "active_conditioning_zone_steps": 953,
+      "mean_ramp_kw": 24.071450223546936,
+      "total_reward": -30.837578288951768,
+      "reason_counts": {
+        "schedule_active:occupied_above_target": 788,
+        "schedule_active:occupied_hot_26": 31,
+        "schedule_active:occupied_hot_27": 7,
+        "schedule_active:occupied_hot_28_plus": 1,
+        "schedule_active:thermostat_deadband": 123,
+        "schedule_inactive:thermostat_deadband": 11,
+        "schedule_inactive:unoccupied_cooling_off": 2273,
+        "schedule_inactive:unoccupied_hot_protection": 126
+      }
+    },
+    {
+      "controller_id": "B0",
+      "controller_name": "B0_FIXED_SCHEDULE_THERMOSTAT_V23",
+      "week": "2025-10-13",
+      "deterministic": true,
+      "environment_safety_enabled": false,
+      "steps": 672,
+      "total_energy_kwh": 13254.191300000073,
+      "peak_demand_kw": 267.2487,
+      "comfort_violation_fraction": 0.0,
+      "mean_abs_temp_deviation_c": 1.2228578271028043,
+      "occupied_zone_steps": 856,
+      "temperature_observations": 856,
+      "mean_hvac_utilization": 0.07147916666666708,
+      "active_conditioning_zone_steps": 779,
+      "mean_ramp_kw": 10.896526378539484,
+      "total_reward": -27.59000200710931,
+      "reason_counts": {
+        "schedule_active:occupied_above_target": 692,
+        "schedule_active:occupied_below_target": 11,
+        "schedule_active:occupied_hot_26": 31,
+        "schedule_active:thermostat_deadband": 216,
+        "schedule_inactive:thermostat_deadband": 540,
+        "schedule_inactive:unoccupied_cooling_off": 1750,
+        "schedule_inactive:unoccupied_heating_off": 75,
+        "schedule_inactive:unoccupied_hot_protection": 45
+      }
+    },
+    {
+      "controller_id": "B1",
+      "controller_name": "B1_TIMETABLE_AWARE_THERMOSTAT_V23",
+      "week": "2025-01-13",
+      "deterministic": true,
+      "environment_safety_enabled": false,
+      "steps": 672,
+      "total_energy_kwh": 17773.15890000002,
+      "peak_demand_kw": 522.4735,
+      "comfort_violation_fraction": 0.07359813084112149,
+      "mean_abs_temp_deviation_c": 1.2725764018691572,
+      "occupied_zone_steps": 856,
+      "temperature_observations": 856,
+      "mean_hvac_utilization": 0.12314968013392903,
+      "active_conditioning_zone_steps": 1262,
+      "mean_ramp_kw": 22.48186229508196,
+      "total_reward": -49.114388623667516,
+      "reason_counts": {
+        "currently_occupied:occupied_above_target": 8,
+        "currently_occupied:occupied_below_target": 212,
+        "currently_occupied:occupied_cold_19_or_below": 61,
+        "currently_occupied:occupied_cold_20": 27,
+        "currently_occupied:occupied_cold_21": 43,
+        "currently_occupied:thermostat_deadband": 505,
+        "no_current_demand:thermostat_deadband": 63,
+        "no_current_demand:unoccupied_cooling_off": 5,
+        "no_current_demand:unoccupied_extreme_cold": 711,
+        "no_current_demand:unoccupied_heating_off": 1525,
+        "timetable_preconditioning": 200
+      }
+    },
+    {
+      "controller_id": "B1",
+      "controller_name": "B1_TIMETABLE_AWARE_THERMOSTAT_V23",
+      "week": "2025-04-14",
+      "deterministic": true,
+      "environment_safety_enabled": false,
+      "steps": 672,
+      "total_energy_kwh": 22767.01570000003,
+      "peak_demand_kw": 411.1784,
+      "comfort_violation_fraction": 0.008177570093457943,
+      "mean_abs_temp_deviation_c": 2.0247931074766368,
+      "occupied_zone_steps": 856,
+      "temperature_observations": 856,
+      "mean_hvac_utilization": 0.19874256716889885,
+      "active_conditioning_zone_steps": 1857,
+      "mean_ramp_kw": 40.372150074515694,
+      "total_reward": -53.81064118533845,
+      "reason_counts": {
+        "currently_occupied:occupied_above_target": 381,
+        "currently_occupied:occupied_hot_26": 464,
+        "currently_occupied:occupied_hot_27": 8,
+        "currently_occupied:thermostat_deadband": 3,
+        "no_current_demand:thermostat_deadband": 2,
+        "no_current_demand:unoccupied_cooling_off": 1498,
+        "no_current_demand:unoccupied_hot_protection": 804,
+        "timetable_preconditioning": 200
+      }
+    },
+    {
+      "controller_id": "B1",
+      "controller_name": "B1_TIMETABLE_AWARE_THERMOSTAT_V23",
+      "week": "2025-07-14",
+      "deterministic": true,
+      "environment_safety_enabled": false,
+      "steps": 672,
+      "total_energy_kwh": 15563.320999999993,
+      "peak_demand_kw": 274.2855,
+      "comfort_violation_fraction": 0.0,
+      "mean_abs_temp_deviation_c": 1.1227796728971962,
+      "occupied_zone_steps": 856,
+      "temperature_observations": 856,
+      "mean_hvac_utilization": 0.0868285840252982,
+      "active_conditioning_zone_steps": 1057,
+      "mean_ramp_kw": 20.399709239940364,
+      "total_reward": -30.239566317425112,
+      "reason_counts": {
+        "currently_occupied:occupied_above_target": 734,
+        "currently_occupied:occupied_hot_26": 10,
+        "currently_occupied:thermostat_deadband": 112,
+        "no_current_demand:thermostat_deadband": 20,
+        "no_current_demand:unoccupied_cooling_off": 2171,
+        "no_current_demand:unoccupied_hot_protection": 126,
+        "timetable_preconditioning": 187
+      }
+    },
+    {
+      "controller_id": "B1",
+      "controller_name": "B1_TIMETABLE_AWARE_THERMOSTAT_V23",
+      "week": "2025-10-13",
+      "deterministic": true,
+      "environment_safety_enabled": false,
+      "steps": 672,
+      "total_energy_kwh": 13083.484700000072,
+      "peak_demand_kw": 267.2487,
+      "comfort_violation_fraction": 0.0,
+      "mean_abs_temp_deviation_c": 1.2169469626168234,
+      "occupied_zone_steps": 856,
+      "temperature_observations": 856,
+      "mean_hvac_utilization": 0.07037505700892895,
+      "active_conditioning_zone_steps": 789,
+      "mean_ramp_kw": 10.46646229508196,
+      "total_reward": -27.24582945758635,
+      "reason_counts": {
+        "currently_occupied:occupied_above_target": 680,
+        "currently_occupied:occupied_hot_26": 31,
+        "currently_occupied:thermostat_deadband": 145,
+        "no_current_demand:thermostat_deadband": 613,
+        "no_current_demand:unoccupied_cooling_off": 1786,
+        "no_current_demand:unoccupied_heating_off": 27,
+        "no_current_demand:unoccupied_hot_protection": 45,
+        "timetable_preconditioning": 33
+      }
+    }
+  ],
+  "summary": {
+    "B0": {
+      "total_energy_kwh": {
+        "n_seasons": 4,
+        "mean": 17478.04020000003,
+        "min": 13254.191300000073,
+        "max": 22867.46090000005
+      },
+      "peak_demand_kw": {
+        "n_seasons": 4,
+        "mean": 416.11969999999997,
+        "min": 267.2487,
+        "max": 513.1895
+      },
+      "comfort_violation_fraction": {
+        "n_seasons": 4,
+        "mean": 0.014602803738317757,
+        "min": 0.0,
+        "max": 0.04906542056074766
+      },
+      "mean_abs_temp_deviation_c": {
+        "n_seasons": 4,
+        "mean": 1.380408265186916,
+        "min": 1.134139252336447,
+        "max": 2.007928154205609
+      },
+      "mean_ramp_kw": {
+        "n_seasons": 4,
+        "mean": 25.298075111773482,
+        "min": 10.896526378539484,
+        "max": 41.38606184798808
+      },
+      "mean_hvac_utilization": {
+        "n_seasons": 4,
+        "mean": 0.12040327380952423,
+        "min": 0.07147916666666708,
+        "max": 0.19818154761904772
+      },
+      "total_reward": {
+        "n_seasons": 4,
+        "mean": -39.54862129001071,
+        "min": -53.95387630115352,
+        "max": -27.59000200710931
+      }
+    },
+    "B1": {
+      "total_energy_kwh": {
+        "n_seasons": 4,
+        "mean": 17296.745075000028,
+        "min": 13083.484700000072,
+        "max": 22767.01570000003
+      },
+      "peak_demand_kw": {
+        "n_seasons": 4,
+        "mean": 368.796525,
+        "min": 267.2487,
+        "max": 522.4735
+      },
+      "comfort_violation_fraction": {
+        "n_seasons": 4,
+        "mean": 0.02044392523364486,
+        "min": 0.0,
+        "max": 0.07359813084112149
+      },
+      "mean_abs_temp_deviation_c": {
+        "n_seasons": 4,
+        "mean": 1.4092740362149534,
+        "min": 1.1227796728971962,
+        "max": 2.0247931074766368
+      },
+      "mean_ramp_kw": {
+        "n_seasons": 4,
+        "mean": 23.430045976154993,
+        "min": 10.46646229508196,
+        "max": 40.372150074515694
+      },
+      "mean_hvac_utilization": {
+        "n_seasons": 4,
+        "mean": 0.11977397208426376,
+        "min": 0.07037505700892895,
+        "max": 0.19874256716889885
+      },
+      "total_reward": {
+        "n_seasons": 4,
+        "mean": -40.102606396004354,
+        "min": -53.81064118533845,
+        "max": -27.24582945758635
+      }
+    }
+  },
+  "rq4_comparison": {
+    "comparison": "PPO predictive lookahead with safety ON versus deterministic B1",
+    "tests": {
+      "total_energy_kwh": {
+        "unit_of_analysis": "PPO training seed averaged over four seasons",
+        "n_rl_seeds": 5,
+        "b1_deterministic_four_season_mean": 17296.745075000028,
+        "ppo_predictive_safety_on_mean": 20708.004755000013,
+        "difference_ppo_minus_b1": 3411.2596799999856,
+        "difference_percent_of_b1": 19.721974655974282,
+        "difference_ci95_half_width_student_t": 506.97204598924054,
+        "one_sample_t_statistic": 18.68184906056054,
+        "one_sample_t_p_value": 4.833050444298396e-05,
+        "cohens_dz": 8.354776888960792,
+        "per_seed_ppo_mean": [
+          20627.437550000017,
+          20712.79100000002,
+          20157.171950000014,
+          21304.67012500001,
+          20737.953150000005
+        ],
+        "one_sample_t_p_value_holm": 0.00014499151332895188
+      },
+      "peak_demand_kw": {
+        "unit_of_analysis": "PPO training seed averaged over four seasons",
+        "n_rl_seeds": 5,
+        "b1_deterministic_four_season_mean": 368.796525,
+        "ppo_predictive_safety_on_mean": 557.4065899999999,
+        "difference_ppo_minus_b1": 188.61006500000002,
+        "difference_percent_of_b1": 51.14203963825311,
+        "difference_ci95_half_width_student_t": 11.837191525971141,
+        "one_sample_t_statistic": 44.23899795921612,
+        "one_sample_t_p_value": 1.561177136710877e-06,
+        "cohens_dz": 19.784281338656342,
+        "per_seed_ppo_mean": [
+          548.1194,
+          562.204225,
+          558.6994,
+          570.128975,
+          547.88095
+        ],
+        "one_sample_t_p_value_holm": 7.805885683554384e-06
+      },
+      "comfort_violation_fraction": {
+        "unit_of_analysis": "PPO training seed averaged over four seasons",
+        "n_rl_seeds": 5,
+        "b1_deterministic_four_season_mean": 0.02044392523364486,
+        "ppo_predictive_safety_on_mean": 0.007710280373831775,
+        "difference_ppo_minus_b1": -0.012733644859813082,
+        "difference_percent_of_b1": -62.285714285714285,
+        "difference_ci95_half_width_student_t": 0.0061839722792217605,
+        "one_sample_t_statistic": -5.717080275593398,
+        "one_sample_t_p_value": 0.0046311131080388574,
+        "cohens_dz": -2.556756025810014,
+        "per_seed_ppo_mean": [
+          0.0037967289719626164,
+          0.01139018691588785,
+          0.004964953271028037,
+          0.003796728971962617,
+          0.014602803738317757
+        ],
+        "one_sample_t_p_value_holm": 0.0046311131080388574
+      },
+      "mean_abs_temp_deviation_c": {
+        "unit_of_analysis": "PPO training seed averaged over four seasons",
+        "n_rl_seeds": 5,
+        "b1_deterministic_four_season_mean": 1.4092740362149534,
+        "ppo_predictive_safety_on_mean": 0.6643883761682244,
+        "difference_ppo_minus_b1": -0.744885660046729,
+        "difference_percent_of_b1": -52.855984067325366,
+        "difference_ci95_half_width_student_t": 0.04759166825102408,
+        "one_sample_t_statistic": -43.45580268084562,
+        "one_sample_t_p_value": 1.6765963019390336e-06,
+        "cohens_dz": -19.434025762237688,
+        "per_seed_ppo_mean": [
+          0.6689452978971961,
+          0.6934569509345796,
+          0.6222054322429911,
+          0.6287004380841121,
+          0.7086337616822432
+        ],
+        "one_sample_t_p_value_holm": 7.805885683554384e-06
+      },
+      "mean_ramp_kw": {
+        "unit_of_analysis": "PPO training seed averaged over four seasons",
+        "n_rl_seeds": 5,
+        "b1_deterministic_four_season_mean": 23.430045976154993,
+        "ppo_predictive_safety_on_mean": 63.76229990312966,
+        "difference_ppo_minus_b1": 40.332253926974666,
+        "difference_percent_of_b1": 172.1390302350291,
+        "difference_ci95_half_width_student_t": 11.45775010326931,
+        "one_sample_t_statistic": 9.773322684458902,
+        "one_sample_t_p_value": 0.0006141335060700986,
+        "cohens_dz": 4.370762777698166,
+        "per_seed_ppo_mean": [
+          52.38281576005961,
+          68.26453394187777,
+          60.927933718330806,
+          76.85371516393445,
+          60.38250093144565
+        ],
+        "one_sample_t_p_value_holm": 0.0012282670121401972
+      }
+    },
+    "per_week": {
+      "2025-01-13": {
+        "total_energy_kwh": {
+          "b1": 17773.15890000002,
+          "ppo_mean": 24086.809299999994,
+          "ppo_ci95_half_width_student_t": 1103.6304658532422,
+          "difference_ppo_minus_b1": 6313.650399999973
+        },
+        "peak_demand_kw": {
+          "b1": 522.4735,
+          "ppo_mean": 553.2570000000001,
+          "ppo_ci95_half_width_student_t": 13.419217322018063,
+          "difference_ppo_minus_b1": 30.783500000000117
+        },
+        "comfort_violation_fraction": {
+          "b1": 0.07359813084112149,
+          "ppo_mean": 0.028271028037383177,
+          "ppo_ci95_half_width_student_t": 0.02534093231923458,
+          "difference_ppo_minus_b1": -0.04532710280373831
+        },
+        "mean_abs_temp_deviation_c": {
+          "b1": 1.2725764018691572,
+          "ppo_mean": 0.6279620794392524,
+          "ppo_ci95_half_width_student_t": 0.15605635719735392,
+          "difference_ppo_minus_b1": -0.6446143224299048
+        },
+        "mean_ramp_kw": {
+          "b1": 22.48186229508196,
+          "ppo_mean": 76.02099591654249,
+          "ppo_ci95_half_width_student_t": 22.365711697533726,
+          "difference_ppo_minus_b1": 53.53913362146053
+        }
+      },
+      "2025-04-14": {
+        "total_energy_kwh": {
+          "b1": 22767.01570000003,
+          "ppo_mean": 24386.050980000007,
+          "ppo_ci95_half_width_student_t": 407.4335955178815,
+          "difference_ppo_minus_b1": 1619.0352799999782
+        },
+        "peak_demand_kw": {
+          "b1": 411.1784,
+          "ppo_mean": 565.83332,
+          "ppo_ci95_half_width_student_t": 21.530224917283128,
+          "difference_ppo_minus_b1": 154.65491999999995
+        },
+        "comfort_violation_fraction": {
+          "b1": 0.008177570093457943,
+          "ppo_mean": 0.0025700934579439253,
+          "ppo_ci95_half_width_student_t": 0.002972726602209934,
+          "difference_ppo_minus_b1": -0.005607476635514018
+        },
+        "mean_abs_temp_deviation_c": {
+          "b1": 2.0247931074766368,
+          "ppo_mean": 0.886562920560748,
+          "ppo_ci95_half_width_student_t": 0.03036830113398034,
+          "difference_ppo_minus_b1": -1.1382301869158886
+        },
+        "mean_ramp_kw": {
+          "b1": 40.372150074515694,
+          "ppo_mean": 64.98103663189268,
+          "ppo_ci95_half_width_student_t": 19.167004367645507,
+          "difference_ppo_minus_b1": 24.608886557376984
+        }
+      },
+      "2025-07-14": {
+        "total_energy_kwh": {
+          "b1": 15563.320999999993,
+          "ppo_mean": 20667.415779999992,
+          "ppo_ci95_half_width_student_t": 1479.625303611643,
+          "difference_ppo_minus_b1": 5104.094779999999
+        },
+        "peak_demand_kw": {
+          "b1": 274.2855,
+          "ppo_mean": 575.37222,
+          "ppo_ci95_half_width_student_t": 3.6125213239948946,
+          "difference_ppo_minus_b1": 301.08671999999996
+        },
+        "comfort_violation_fraction": {
+          "b1": 0.0,
+          "ppo_mean": 0.0,
+          "ppo_ci95_half_width_student_t": 0.0,
+          "difference_ppo_minus_b1": 0.0
+        },
+        "mean_abs_temp_deviation_c": {
+          "b1": 1.1227796728971962,
+          "ppo_mean": 0.5524213084112152,
+          "ppo_ci95_half_width_student_t": 0.034036700960918966,
+          "difference_ppo_minus_b1": -0.570358364485981
+        },
+        "mean_ramp_kw": {
+          "b1": 20.399709239940364,
+          "ppo_mean": 70.40329961251864,
+          "ppo_ci95_half_width_student_t": 8.413872227459406,
+          "difference_ppo_minus_b1": 50.00359037257827
+        }
+      },
+      "2025-10-13": {
+        "total_energy_kwh": {
+          "b1": 13083.484700000072,
+          "ppo_mean": 13691.74296000006,
+          "ppo_ci95_half_width_student_t": 71.61386285757509,
+          "difference_ppo_minus_b1": 608.2582599999878
+        },
+        "peak_demand_kw": {
+          "b1": 267.2487,
+          "ppo_mean": 535.16382,
+          "ppo_ci95_half_width_student_t": 32.14444535886355,
+          "difference_ppo_minus_b1": 267.91512
+        },
+        "comfort_violation_fraction": {
+          "b1": 0.0,
+          "ppo_mean": 0.0,
+          "ppo_ci95_half_width_student_t": 0.0,
+          "difference_ppo_minus_b1": 0.0
+        },
+        "mean_abs_temp_deviation_c": {
+          "b1": 1.2169469626168234,
+          "ppo_mean": 0.5906071962616821,
+          "ppo_ci95_half_width_student_t": 0.014093417020832485,
+          "difference_ppo_minus_b1": -0.6263397663551413
+        },
+        "mean_ramp_kw": {
+          "b1": 10.46646229508196,
+          "ppo_mean": 43.643867451564816,
+          "ppo_ci95_half_width_student_t": 5.675986046730582,
+          "difference_ppo_minus_b1": 33.177405156482855
+        }
+      }
+    }
+  }
+}
