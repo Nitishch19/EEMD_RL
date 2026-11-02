@@ -8,6 +8,7 @@ allowBuilds:
   fsevents: true
   sharp: true
   unrs-resolver: true
+  workerd: set this to true or false
 
 enableGlobalVirtualStore: false
 packageImportMethod: clone-or-copy
