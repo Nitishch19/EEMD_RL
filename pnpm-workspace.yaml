@@ -14,3 +14,10 @@ enableGlobalVirtualStore: false
 packageImportMethod: clone-or-copy
 verifyDepsBeforeRun: false
 optimisticRepeatInstall: false
+
+# Package download settings
+networkConcurrency: 8
+fetchTimeout: 180000
+fetchRetries: 3
+fetchRetryMintimeout: 10000
+fetchRetryMaxtimeout: 60000
